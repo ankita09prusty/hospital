@@ -120,7 +120,7 @@ if (isset($_POST['submit'])) {
                     <div class="col-sm-4 blog-smk">
                         <div class="blog-single">
 
-                            <img src="assets/images/patient.jpg" alt="">
+                            <img src="assets/images/patient.png" alt="">
 
                             <div class="blog-single-det">
                                 <h6>Patient Login</h6>
@@ -133,7 +133,7 @@ if (isset($_POST['submit'])) {
                     <div class="col-sm-4 blog-smk">
                         <div class="blog-single">
 
-                            <img src="assets/images/doctor.jpg" alt="">
+                            <img src="assets/images/doctor.png" alt="">
 
                             <div class="blog-single-det">
                                 <h6>Doctors login</h6>
@@ -147,7 +147,7 @@ if (isset($_POST['submit'])) {
                     <div class="col-sm-4 blog-smk">
                         <div class="blog-single">
 
-                            <img src="assets/images/admin.jpg" alt="">
+                            <img src="assets\images\admin.png" alt="">
 
                             <div class="blog-single-det">
                                 <h6>Admin Login</h6>
