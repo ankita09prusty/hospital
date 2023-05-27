@@ -71,7 +71,7 @@ if (isset($_POST['submit'])) {
 
             <div class="carousel-inner">
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="assets/images/slider/slider_2.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="assets/images/slider/slider_2.png" alt="Second slide">
                     <div class="carousel-cover"></div>
                     <div class="carousel-caption vdg-cur d-none d-md-block">
                         <h5 class="animated bounceInDown">Optimizing Patient Care : PrimeCare</h5>
@@ -283,36 +283,52 @@ if (isset($_POST['submit'])) {
                     <button class="btn btn-default filter-button" data-filter="sprinkle">Cardiology</button>
                     <button class="btn btn-default filter-button" data-filter="spray"> Neurology</button>
                     <button class="btn btn-default filter-button" data-filter="irrigation">Laboratry</button>
+                    <button class="btn btn-default filter-button" data-filter="gyn">Gynecologists</button>
                 </div>
                 <br />
 
-
-
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                    <img src="assets/images/gallery/gallery_01.jpg" class="img-responsive">
+                    <img src="assets/images/gallery/gallery_28.jpg" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                    <img src="assets/images/gallery/gallery_02.jpg" class="img-responsive">
-                </div>
-
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
                     <img src="assets/images/gallery/gallery_03.jpg" class="img-responsive">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                    <img src="assets/images/gallery/gallery_13.jpg" class="img-responsive">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                    <img src="assets/images/gallery/gallery_17.jpg" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
                     <img src="assets/images/gallery/gallery_04.jpg" class="img-responsive">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                    <img src="assets/images/gallery/gallery_02.jpg" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
                     <img src="assets/images/gallery/gallery_05.jpg" class="img-responsive">
                 </div>
 
-
-
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
                     <img src="assets/images/gallery/gallery_06.jpg" class="img-responsive">
                 </div>
+                <!-- Gynac -->
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gyn">
+                    <img src="assets/images/gallery/gallery_22.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gyn">
+                    <img src="assets/images/gallery/gallery_20.jpg" class="img-responsive">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gyn">
+                    <img src="assets/images/gallery/gallery_21.jpg" class="img-responsive">
+                </div>
+
+
 
             </div>
         </div>
