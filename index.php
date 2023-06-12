@@ -82,7 +82,7 @@ if (isset($_POST['submit'])) {
                 </div>
 
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/slider/slider_6.png" alt="Third slide">
+                    <img class="d-block w-100" src="assets/images/slider/slider_7.png" alt="Third slide">
                     <div class="carousel-cover"></div>
                     <div class="carousel-caption vdg-cur d-none d-md-block">
                         <h5 class="animated bounceInDown">Most Experienced Doctors & Staffs </h5>
