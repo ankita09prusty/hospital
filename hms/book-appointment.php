@@ -242,11 +242,15 @@ while($row=mysqli_fetch_array($ret))
 
 			$('.datepicker').datepicker({
     format: 'yyyy-mm-dd',
-    startDate: '-3d'
+    startDate: '-0d'
 });
 		</script>
 		  <script type="text/javascript">
-            $('#timepicker1').timepicker();
+            $('#timepicker1').timepicker({
+    timeFormat: 'h:i A', // set the time format to 12-hour format with AM/PM
+    interval: 30, // set the interval to 15 minutes
+    minTime: 'now' // set the minimum time to the current time
+});
         </script>
 		<!-- end: JavaScript Event Handlers for this page -->
 		<!-- end: CLIP-TWO JAVASCRIPTS -->
