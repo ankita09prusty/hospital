@@ -157,8 +157,20 @@ return true;
 			});
 		</script>
 		
-	<script>
+	<script> 
+//email Validation
 function userAvailability() {
+	var emailInput = $("#email");
+      var email = emailInput.val();
+      
+      // Regular expression pattern to validate email format
+      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      
+      // Check if the email matches the pattern
+      if (!emailPattern.test(email)) {
+        $("#user-availability-status1").html("Please enter a valid email address.");
+        return;
+      }
 $("#loaderIcon").show();
 jQuery.ajax({
 url: "check_availability.php",
@@ -172,6 +184,21 @@ error:function (){}
 });
 }
 </script>	
+<!--Password Validation-->
+<script>
+	document.getElementById("password").addEventListener("input", validatePassword);
+
+	function validatePassword() {
+		var passwordInput = document.getElementById("password");
+		var password = passwordInput.value;
+
+		if (password.length < 6) {
+			passwordInput.setCustomValidity("Please enter at least 6 characters.");
+		} else {
+			passwordInput.setCustomValidity("");
+		}
+	}
+</script>
 		
 	</body>
 	<!-- end: BODY -->
